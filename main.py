@@ -73,7 +73,7 @@ def exit_program():
 
 
 def calculator():
-    print("Введите выражение для вычисления (например, 2 + 2 или 3 * 4):")
+    print("Скажите выражение для вычисления (например, 2 + 2 или 3 * 4):")
     query = listen_command()
     query = (
         query.replace("умножить на", "*")
